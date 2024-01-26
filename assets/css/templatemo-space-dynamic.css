@@ -98,7 +98,7 @@ ul {
 p {
   font-size: 15px;
   line-height: 30px;
-  color: #2a2a2a;
+  color: #fff;
 }
 
 img {
@@ -113,7 +113,7 @@ global styles
 */
 html,
 body {
-  background: #fff;
+  background: #000000a5;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -150,7 +150,7 @@ body {
 .section-heading h2 {
   font-size: 30px;
   text-transform: capitalize;
-  color: #2a2a2a;
+  color: #fff;
   font-weight: 700;
   letter-spacing: 0.25px;
   position: relative;
@@ -203,26 +203,15 @@ body {
   letter-spacing: 0.25px;
 }
 
-/* 
----------------------------------------------
-header
---------------------------------------------- 
-*/
 
 .background-header {
-  /* background-color: #000 !important; */
-  /* height: 40px!important; */
   position: fixed!important;
   top: 0px;
   left: 0px;
   right: 0px;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.15)!important;
 }
-/* 
-.background-header .logo,
-.background-header .main-nav .nav li a {
-  color: #1e1e1e!important;
-} */
+
 
 .background-header .main-nav .nav li:hover a {
   color: #fe3f40!important;
@@ -359,14 +348,14 @@ header
   font-family: FontAwesome;
   content: "\f107";
   font-size: 12px;
-  color: #2a2a2a;
+  color: #fff;
   position: absolute;
   right: 18px;
   top: 12px;
 }
 
 .background-header .main-nav .nav li.submenu:after {
-  color: #2a2a2a;
+  color: #fff;
 }
 
 .header-area .main-nav .nav li.submenu ul {
@@ -392,7 +381,7 @@ header
   opacity: 1;
   display: block;
   background: #f7f7f7;
-  color: #2a2a2a!important;
+  color: #fff!important;
   padding-left: 20px;
   height: 40px;
   line-height: 40px;
@@ -789,7 +778,7 @@ Banner Style
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 226px 0px 120px 0px;
+  padding: 150px 0px 120px 0px;
   position: relative;
   overflow: hidden;
 }
@@ -830,7 +819,7 @@ Banner Style
 .main-banner .left-content h2 {
   font-size: 50px;
   font-weight: 700;
-  color: #2a2a2a;
+  color: #fff;
   line-height: 72px;
 }
 
@@ -897,16 +886,13 @@ About Us Style
 --------------------------------------------- 
 */
 
-#about {
-  margin-top: 120px;
-}
 
 .about-us {
   background-image: url(../images/about-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 140px 0px 120px 0px;
+  padding: 50px 0px 80px 0px;
 }
 
 .about-us .left-image {
@@ -946,7 +932,7 @@ Services Style
 
 .our-services {
   margin-top: 0px;
-  padding-top: 120px;
+  padding-top: 10px;
 }
 
 .our-services .left-image {
@@ -991,7 +977,7 @@ Services Style
 .our-services .progress-skill-bar h4 {
   font-size: 18px;
   font-weight: 700;
-  color: #2a2a2a;
+  color: #fff;
   margin-bottom: 14px;
 }
 
@@ -1103,7 +1089,7 @@ Portfolio
   top: 0px;
   position: relative;
   z-index: 3;
-  background-color: #000;
+  background-color: #bbdefb;
   text-align: center;
   padding: 50px;
   border-radius: 20px;
@@ -1185,7 +1171,7 @@ Blog
 .our-blog .left-image h4 {
   font-size: 20px;
   font-weight: 700;
-  color: #2a2a2a;
+  color: #fff;
   margin: 20px 0px 15px 0px;
 }
 
@@ -1224,7 +1210,7 @@ Blog
 .our-blog .right-list .left-content h4 {
   font-size: 20px;
   font-weight: 700;
-  color: #2a2a2a;
+  color: #fff;
   margin: 20px 0px 15px 0px;
 }
 
@@ -1303,7 +1289,7 @@ form#contact .contact-dec img {
 form#contact {
   margin-left: 30px;
   position: relative;
-  background-color: #000;
+  background-color: #161616;
   padding: 60px 30px;
   border-radius: 20px;
 }
@@ -1317,13 +1303,13 @@ form#contact input {
   outline: none;
   font-size: 15px;
   font-weight: 300;
-  color: #2a2a2a;
+  color: #000;
   padding: 0px 20px;
   margin-bottom: 20px;
 }
 
-form#contact input::placeholder {
-  color: #2a2a2a;
+form#contact input::placeholder ,form#contact textarea::placeholder {
+  color: #000;
 }
 
 form#contact textarea {
@@ -1339,14 +1325,12 @@ form#contact textarea {
   outline: none;
   font-size: 15px;
   font-weight: 300;
-  color: #2a2a2a;
+  color: #000;
   padding: 15px 20px;
   margin-bottom: 20px;
 }
 
-form#contact textarea::placeholder {
-  color: #2a2a2a;
-}
+
 
 form#contact button {
   display: inline-block;
